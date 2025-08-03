@@ -139,11 +139,18 @@ function checkrestaurant() {
 }
 
 // Atualiza status do restaurante
-const isOpen = checkrestaurant();
-if (isOpen) {
-    // Restaurante aberto
-} else {
-    spanitems.classList.remove('text-green-500');
-    spanitems.classList.add('text-red-500');
+function updateRestaurantStatus() {
+    const isOpen = checkrestaurant();
+    if (spanitems) {
+        if (isOpen) {
+            spanitems.classList.add('bg-green-600');
+            spanitems.classList.remove('bg-red-600');
+        } else {
+            spanitems.classList.remove('bg-green-600');
+            spanitems.classList.add('bg-red-600');
+        }
+    }
 }
+
+updateRestaurantStatus();
 
