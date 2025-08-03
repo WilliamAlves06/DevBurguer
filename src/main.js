@@ -135,7 +135,7 @@ checkoutBtn.addEventListener('click', function () {
 function checkrestaurant() {
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 18 && hora < 22;
+    return hora >= 18 && hora < 23;
 }
 
 // Atualiza status do restaurante
