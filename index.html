@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="/src/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MELHOR MAIS</title>
+</head>
+
+<body>
+
+  <header class="w-full h-[420px] bg-zinc-900 bg-cover bg-center flex items-center justify-center">
+    <div class="flex items-center flex-col">
+      <img src="./src/assets/hamb-1.png" alt="LG hamburger"
+        class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+      <h1 class="text-3xl mt-4 mb-4 font-bold text-white">Dev Burguer</h1>
+      <span class="text-white mt-4 mb-2 font-medium">Rua Adelino Martins 290, Jundiaí - SP</span>
+      <div class=" bg-green-600 flex px-4 py-1 rounded-lg mt-0.5 mb-2">
+        <span class="text-white font-light">Seg á Dom - 18:00 as 22:00</span>
+      </div>
+      </span>
+    </div>
+  </header>
+
+  <div id="menu">
+    <main class="w-full h-full flex items-center justify-center">
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-2xl font-bold mt-9 mb-4">Cardápio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 hover">
+          
+          <div class="bg-white p-4 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/hamb-2.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Hambúrguer Clássico</h3>
+            <p class="text-gray-600 mb-4">Pão, carne, queijo, alface e tomate.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$25.90</span>
+              <button data-name="Hambúrguer Clássico" data-price="25.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+          <!-- Repeat for more items -->
+          <div class="bg-white p-7 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/hamb-3.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">American Burger</h3>
+            <p class="text-gray-600 mb-4">pão brioche, hambúrguer bovino artesanal, queijo cheddar, cebola caramelizada,
+              tomate, alface americana, maionese caseira.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$43.90</span>
+              <button data-name="American Burger" data-price="43.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+          <!-- Repeat for more items -->
+          <div class="bg-white p-7 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/hamb-4.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Italiano Grill</h3>
+            <p class="text-gray-600 mb-4">pão ciabatta, filé de frango grelhado, molho pesto, queijo mussarela de
+              búfala,
+              tomate seco, rúcula.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$50.90</span>
+              <button data-name="Italiano Grill" data-price="50.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+          <!-- Repeat for more items -->
+          <div class="bg-white p-7 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/hamb-5.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">London Roast</h3>
+            <p class="text-gray-600 mb-4">pão de fermentação natural, rosbife caseiro, queijo suíço, mostarda dijon,
+              rúcula, picles de pepino.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R23.90</span>
+              <button data-name="London Roast" data-price="23.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+          <!-- Repeat for more items -->
+          <div class="bg-white p-7 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/hamb-6.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Paris Toast</h3>
+            <p class="text-gray-600 mb-4">pão rústico, mussarela de búfala, tomate, molho de ervas finas, redução de
+              balsâmico.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$29.90</span>
+              <button data-name="Paris Toast" data-price="29.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+
+          <div class="bg-white p-7 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/hamb-8.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Tel Aviv Veggie</h3>
+            <p class="text-gray-600 mb-4">mini pão artesanal, falafel, homus, rúcula, tomate, molho tahine.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$25.90</span>
+              <button data-name="Tel Aviv Veggie" data-price="25.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+
+        </div>
+        <h2 class="text-2xl font-bold mt-9 mb-4">Bebidas</h2>
+        <div class=" grid grid-cols-1 md:grid-cols-2 flex-col items-center justify-center gap-4 mb-17">
+          <div class="bg-white p-4 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/refri-1.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Coca lata</h3>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$5.90</span>
+              <button data-name="Coca lata" data-price="5.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+
+          <div class="bg-white p-4 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">
+            <img src="./src/assets/refri-2.png" alt="Hamburger 1" class="w-full h-32 object-cover rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Guarana lata</h3>
+            <div class="flex items-center justify-between">
+              <span class="text-green-600 font-bold">R$5.90</span>
+              <button data-name="Guarana lata" data-price="5.90" class=" bg-green-400 px-4 py-1 rounded-2xl font-black cursor-pointer add-to-cart-btn"><img
+                  src="src/assets/cart.svg"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div id="cart-modal" class="w-full h-full bg-black/70 fixed top-0 left-0 z-40 hidden items-center justify-center">
+    <div class="flex flex-col bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px] ">
+      <h2 class="text-2xl font-bold mb-4">Meu Carrinho</h2>
+      <div id="cart-items" class=" flex justify-between mb-2 flex-col"></div>
+
+      <p class="text-bold py-1">total: <span id="cart-total">0.00</span></p>
+      <p id="address-warn" class="font-light hidden text-red-500" > digite o endereço de entrega!!!</p>
+      <input type="text" placeholder="Digite seu endereço" id="address"
+        class=" p-1 border  border-gray-300 rounded-lg mb-4 focus:outline-none focus:ring-2 focus:ring-green-100">
+      <button
+        id="checkout-btn"
+        class="bg-green-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors duration-200">
+        confirmar pedido
+      </button>
+      <button
+        id="close-modal-btn"
+        class="bg-zinc-500 text-white px-4 py-2 mt-2 rounded-lg font-semibold hover:bg-zinc-600 transition-colors duration-200">
+        voltar
+      </button>
+    </div>
+  </div>
+
+  <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-20">
+    <button id="cart-btn" class="w-full h-full flex items-center justify-center text-white font-bold cursor-pointer">
+      (<span id="cart-count">0</span>)
+      Ver meu carrinho
+      <img class="px-2" src="/src/assets/cart.svg">
+    </button>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+
+</html>
