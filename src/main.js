@@ -124,7 +124,7 @@ checkoutBtn.addEventListener('click', function () {
         return `item:${item.name} - ${item.quantity}\n por ${item.price * item.quantity} \n\n`;
     }).join('');
     const mensage = encodeURIComponent(cartItems);
-    const phoneNumber = '11972159241'; // Substitua pelo número de telefone desejado
+    const phoneNumber = '5511972159241'; // Substitua pelo número de telefone desejado
     console.log(cartItems);
     window.open(`https://wa.me/${phoneNumber}?text=${mensage} \n\n\nEndereço: ${addressInput.value}`, '_blank');
     cart = [];
